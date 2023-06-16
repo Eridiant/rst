@@ -1,0 +1,33 @@
+<svg>
+    <symbol id="mail" width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <path d="M0.5 2.13202L7.79592 8.14281L7.79708 8.14375C8.20474 8.47757 8.79114 8.47779 9.19904 8.14443C9.19931 8.1442 9.19959 8.14398 9.19986 8.14375L16.5 2.21259V11.5358C16.5 11.5949 16.452 11.6429 16.3928 11.6429H0.607154C0.54797 11.6429 0.5 11.5949 0.5 11.5358V2.13202Z" stroke="currentColor"/>
+            <path d="M8.45446 6.35264L1.38763 0.5H15.6213L8.45446 6.35264Z" stroke="currentColor"/>
+        </g>
+    </symbol>
+    <symbol id="address" width="17" height="24" viewBox="0 0 17 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <path d="M8.28934 0.738525C3.79725 0.738525 0.142578 4.24701 0.142578 8.55942C0.142578 13.9797 8.29735 23.2385 8.29735 23.2385C8.29735 23.2385 16.4361 13.7131 16.4361 8.55942C16.4361 4.24701 12.7816 0.738525 8.28934 0.738525ZM10.7474 10.8494C10.0696 11.4999 9.17955 11.8252 8.28934 11.8252C7.39928 11.8252 6.50893 11.4999 5.83144 10.8494C4.47603 9.54832 4.47603 7.43126 5.83144 6.13007C6.48776 5.49972 7.3608 5.15256 8.28934 5.15256C9.21789 5.15256 10.0908 5.49986 10.7474 6.13007C12.1028 7.43126 12.1028 9.54832 10.7474 10.8494Z" fill="currentColor"/>
+        </g>
+    </symbol>
+    <symbol id="arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <line x1="0.646447" y1="15.6464" x2="14.8965" y2="1.39637" stroke="currentColor"/>
+            <path d="M2.7417 1H15.0918V13.3501" stroke="currentColor"/>
+        </g>
+    </symbol>
+    <symbol id="zzz" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+        </g>
+    </symbol>
+    <symbol id="zzz" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+        </g>
+    </symbol>
+    <symbol id="zzz" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+        </g>
+    </symbol>
+</svg>
+
+
