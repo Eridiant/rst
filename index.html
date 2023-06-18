@@ -14,6 +14,10 @@
 
 	<link rel="icon" href="images/favicon.png">
 	<meta property="og:image" content="images/dist/preview.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="css/app.min.css">
@@ -21,14 +25,154 @@
 </head>
 
 <body>
+    <header>
+    <nav>
+        <div>
+            <a href="#" class="icon">
+                <img src="icon.svg" alt="Icon">
+            </a>
+        </div>
+        <div class="">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contacts.html">Contacts</a></li>
+            </ul>
+            <address>
+                15 Luka Asatiani St, Batumi 6010, Грузия
+            </address>
+        </div>
+        <div>
+            <div class="language-selection">
+                <select>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
+            <div class="social-links">
+                <a href="https://telegram.com" target="_blank">Telegram</a>
+                <a href="https://whatsapp.com" target="_blank">WhatsApp</a>
+            </div>
+            <div class="phone-link">
+                <a href="tel:+77002100685">+7 700 210 06 85</a>
+            </div>
+            <div class="country-selection">
+                <select>
+                    <option value="kz">Kazakhstan</option>
+                    <option value="ru">Russia</option>
+                    <option value="gr">Greece</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+</header>
 
-	<div style="max-width: 700px; margin: auto">
+<main>
+    <!-- #include virtual="/parts/index/index-img.html" -->
+    <!-- #include virtual="/parts/index/index-desc.html" -->
+    <!-- #include virtual="/parts/index/partners.html" -->
+    <div class="company container" style="max-width: 1200px; margin: auto">
+    <div class="company-desc">
+        <p class="subtitle">DDA Real Estate</p>
+        <p class="title">О компании</p>
+        <p>
+            Международное агентство по продаже недвижимости в Грузии, ОАЭ, Турции и Таиланде, созданное в 2007 году, входит в группу компаний «Бизнес-Юрист». Единственная Компания на рынке, которая имеет более 300 офисов в России от Калининграда до Камчатки, офисы в Казахстане, Турции и головной офис в Дубае..
+        </p>
+        <a href="#" class="company-btn btn">
+            <span>
+                <span>Подробнее</span>
+            </span>
+            <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+        </a>
+    </div>
+    <div class="company-video">
+        <video src="#"></video>
+    </div>
+</div>
+    <section class="form container text-white" style="max-width: 1200px; margin: auto">
+    <div class="form-background background main-border-radius">
+        <picture>
+            <img src="img-del/form.jpg" alt="">
+        </picture>
+    </div>
+    <div class="form-wrapper">
+        <p class="title">Получите консультацию</p>
+        <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону <a href="tel:+77002100685">+7 700 210 06 85</a></p>
 
-		<img src="images/dist/preview.jpg" alt="Start HTML5 Template" style="width: 100%"><br><br>
-		<h2 class="heading">Welcome to startup HTML template OptimizedHTML 5!</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam reprehenderit nulla alias expedita a qui, pariatur doloremque ipsa fugit laboriosam odio iure recusandae laborum delectus praesentium magni reiciendis voluptatem. Sed.</p>
+        <form class="form-form" action="#" method="post">
+            <div class="form-inner">
+                <div class="form-inner-fl">
+                    <div class="form-inner-container">
+                        <input type="text" id="name" name="name" placeholder="Имя" required>
+                        <label for="name">Имя:</label>
+                    </div>
 
-	</div>
+                    <div class="form-inner-container">
+                        <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                        <label for="phone">Телефон:</label>
+                    </div>
+                </div>
+                <div class="form-inner-container">
+                    <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
+                    <label for="message">Сообщение:</label>
+                </div>
+            </div>
+            <div>
+                <button class="form-btn btn" type="submit">
+                    <span>
+                        <span>отправить</span>
+                        <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+</main>
+
+    <footer class="footer container" style="max-width: 1200px; margin: auto">
+    <div class="footer-column">
+        <a href="#" class="icon">
+            <img src="icon.svg" alt="Icon">
+        </a>
+        <p>© DDA REAL ESTATE 2007</p>
+        <a href="privacy-policy.html">Политика конфиденциальности </a>
+    </div>
+    <div class="footer-column">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <div class="footer-inner">
+            <div class="social-links">
+                <a href="https://telegram.com" target="_blank">Telegram</a>
+                <a href="https://whatsapp.com" target="_blank">WhatsApp</a>
+            </div>
+            <div class="phone-link">
+                <a href="tel:+77002100685">+7 700 210 06 85</a>
+            </div>
+            <div class="country-selection">
+                <select>
+                    <option value="kz">Kazakhstan</option>
+                    <option value="ru">Russia</option>
+                    <option value="gr">Greece</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-inner">
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-inner">
+            <a href="mailto:info@example.com">info@example.com</a>
+        </div>
+    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/app.min.js"></script>
