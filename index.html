@@ -35,9 +35,9 @@
 
 <body>
     <header class="header scroll">
-    <div class="container-lg" style="max-width: 1920px; margin: auto">
+    <div class="container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
         <nav>
-            <div>
+            <div class="header-logo">
                 <a href="/" class="icon">
                     <img src="images/logo.png" alt="logo">
                 </a>
@@ -48,8 +48,8 @@
                     <li><a href="/about.html">About</a></li>
                     <li><a href="/contacts.html">Contacts</a></li>
                 </ul>
-                <address>
-                    15 Luka Asatiani St, Batumi 6010, Грузия
+                <address class="border">
+                    <svg width="17" height="24"><use xlink:href="images/icons.svg#address"></use></svg> 15 Luka Asatiani St, Batumi 6010, Грузия
                 </address>
             </div>
             <div class="header-localization">
@@ -61,8 +61,8 @@
                     </select>
                 </div>
                 <div class="social-links">
-                    <a href="https://telegram.com" target="_blank">Telegram</a>
-                    <a href="https://whatsapp.com" target="_blank">WhatsApp</a>
+                    <a href="https://telegram.com" target="_blank"><svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg></a>
+                    <a href="https://whatsapp.com" target="_blank"><svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></a>
                 </div>
                 <div class="phone-link">
                     <a href="tel:+77002100685">+7 700 210 06 85</a>
@@ -81,7 +81,7 @@
 
 <main>
     <section class="first">
-    <div class="container-lg" style="max-width: 1920px; margin: auto">
+    <div class="container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
         <div class="first-bg background">
             <picture>
 				<source srcset="images/index/first/first-1-480-1x.jpg, images/index/first/first-1-480-2x.jpg 2x" media="(max-width: 481px)">
@@ -92,7 +92,7 @@
                 <img src="images/index/first/first-1-1600-1x.jpg" alt="">
             </picture>
         </div>
-        <div class="container" style="max-width: 1200px; margin: auto">
+        <div class="container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
             <div class="first-wrapper">
                 <div class="first-content">
                     <p class="first-num michroma">01</p>
@@ -127,7 +127,7 @@
         </div>
     </div>
 </section>
-    <section class="projects container" style="max-width: 1200px; margin: auto">
+    <section class="projects container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Надежные проекты</p>
     <div class="projects-switch">
         <a href="#" class="active">Все</a>
@@ -328,7 +328,7 @@
 </section>
 
 
-    <section class="districts container" style="max-width: 1200px; margin: auto">
+    <section class="districts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Районы</p>
     <div class="swiper-buttons">
         <div class="districts-swiper-button-prev">&#8249;</div>
@@ -513,7 +513,7 @@
 </section>
 
 
-    <section class="services container" style="max-width: 1200px; margin: auto">
+    <section class="services container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Какие услуги оказываем?</p>
     <div class="services-items">
         <div class="services-item">
@@ -584,7 +584,7 @@
         </div>
     </div>
 </section>
-    <section class="opinion container" style="max-width: 1200px; margin: auto">
+    <section class="opinion container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="opinion-img main-border-radius">
         <picture>
             <img src="images/index/opinion/opinion.jpg" alt="">
@@ -599,7 +599,7 @@
         <canvas class="opinion-chart" id="chart"></canvas>
     </div>
 </section>
-    <div class="experts container" style="max-width: 1200px; margin: auto">
+    <section class="experts container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <p class="title">Наши специалисты</p>
     <div class="swiper experts-swiper card">
         <div class="swiper-wrapper text-white">
@@ -822,8 +822,8 @@
         </div>
         <div class="swiper-pagination pagination"></div>
     </div>
-</div>
-    <section class="form container text-white" style="max-width: 1200px; margin: auto">
+</section>
+    <section class="form container text-white" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="form-background background main-border-radius">
         <picture>
             <img src="img-del/form.jpg" alt="">
@@ -862,7 +862,7 @@
         </form>
     </div>
 </section>
-    <div class="company container" style="max-width: 1200px; margin: auto">
+    <section class="company container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
     <div class="company-desc">
         <p class="subtitle">DDA Real Estate</p>
         <p class="title">О компании</p>
@@ -876,14 +876,14 @@
             <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
         </a>
     </div>
-    <div class="company-video">
+    <!-- <div class="company-video">
         <video src="#"></video>
-    </div>
-</div>
+    </div> -->
+</section>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <footer class="footer">
-    <div class="container" style="max-width: 1200px; margin: auto">
+    <div class="container" style="max-width: 1204px; margin-left: auto; margin-right: auto">
         <div class="footer-column">
             <a href="/" class="icon">
                 <img src="images/logo.png" alt="logo">
@@ -920,7 +920,7 @@
                 <a href="https://facebook.com" target="_blank"><svg width="24" height="25"><use xlink:href="images/icons.svg#whatsapp"></use></svg></a>
             </div>
             <div class="footer-inner">
-                <a href="mailto:info@example.com" class="border">info@example.com</a>
+                <a href="mailto:dda.rea.est@gmail.com" class="border"><svg width="17" height="13"><use xlink:href="images/icons.svg#mail"></use></svg> dda.rea.est@gmail.com</a>
             </div>
         </div>
     </div>
