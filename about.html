@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <header class="header scroll">
+    <header class="header">
     <div class="container-lg" style="max-width: 1920px; margin-left: auto; margin-right: auto">
         <nav>
             <div class="header-logo">
@@ -74,6 +74,12 @@
                         <option value="gr">gr</option>
                     </select>
                 </div>
+            </div>
+            <div class="header-localization-mb">
+                <p class="header-localization-inf">Все номера есть на <svg width="20" height="20"><use xlink:href="images/icons.svg#telegram"></use></svg> <svg width="20" height="20"><use xlink:href="images/icons.svg#viber"></use></svg></p>
+                <p class="header-localization-phone michroma"><a href="tel:+77002100685">+7 700 210 06 85</a> <span>:KZ</span></p>
+                <p class="header-localization-phone michroma"><a href="tel:89646353313">8 964 635 33 13</a> <span>:RU</span></p>
+                <p class="header-localization-phone michroma"><a href="tel:+995706070141">+9 957 060 701 41</a> <span>:GR</span></p>
             </div>
         </nav>
     </div>
@@ -290,6 +296,94 @@
         </div>
     </div>
 </footer>
+    <div class="menu-icon">
+    <p>&#8801;</p>
+</div>
+<div id="menu" class="menu">
+    <div class="menu-wrapper">
+        <div class="menu-header">
+            <a href="#">
+                <picture>
+                    <source srcset="/images/syndicate.webp" type="image/webp">
+                    <img src="/images/syndicate.png" alt="">
+                </picture>
+            </a>
+            <p class="menu-close">&times;</p>
+        </div>
+        <div class="menu-nav">
+            <div>
+                <a href="tel:+995574459400">
+                    <svg width="19" height="19"><use xlink:href="/images/icons.svg#phone"></use></svg>
+                    <span class="link">+995 574459400</span>
+                </a>
+            </div>
+            <div>
+                <a href="tel:+79265001451">
+                    <svg width="19" height="19"><use xlink:href="/images/icons.svg#phone"></use></svg>
+                    <span class="link">+7926 5001451</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://wa.me/+79269976601">
+                    <svg class="green" width="19" height="19"><use xlink:href="/images/icons.svg#whatsapp"></use></svg>
+                    <span class="link">write to whatsapp</span>
+                </a>
+            </div>
+            <div class="nav-social">
+                <a href="#">
+                    <svg width="19" height="19"><use xlink:href="/images/icons.svg#fb"></use></svg>
+                </a>
+                <a href="#">
+                    <svg width="20" height="15"><use xlink:href="/images/icons.svg#youtube"></use></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="popup">
+        <div class="popup-wrapper">
+            <div class="popup-close"><svg width="14" height="14"><use xlink:href="images/icons.svg#close"></use></svg></div>
+            <div class="popup-inner"></div>
+        </div>
+    </div>
+
+    <div class="form form-popup">
+        <div class="form-wrap">
+            <div class="form-close"><svg width="14" height="14"><use xlink:href="images/icons.svg#close"></use></svg></div>
+            <div class="form-inner">
+                <div class="form-wrapper">
+                    <p class="caption">Получите консультацию</p>
+                    <p class="form-desc">Оставьте заявку на сайте или  позвоните по телефону <a href="tel:+77002100685">+7 700 210 06 85</a></p>
+                    <form class="form-form" action="#" method="post">
+                        <div class="form-inner">
+                            <div class="form-inner-fl">
+                                <div class="form-inner-container">
+                                    <input type="text" id="name" name="name" placeholder="Имя" required>
+                                    <label for="name">Имя:</label>
+                                </div>
+            
+                                <div class="form-inner-container">
+                                    <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+                                    <label for="phone">Телефон:</label>
+                                </div>
+                            </div>
+                            <div class="form-inner-container">
+                                <textarea id="message" name="message" placeholder="Сообщение" required></textarea>
+                                <label for="message">Сообщение:</label>
+                            </div>
+                        </div>
+                        <button class="form-btn btn" type="submit">
+                            <span>
+                                <span>отправить</span>
+                                <svg width="16" height="16"><use xlink:href="images/icons.svg#arrow"></use></svg>
+                            </span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/app.min.js"></script>
