@@ -59,11 +59,21 @@
             <line x1="0.824181" y1="12.9045" x2="12.9048" y2="0.823868" stroke="currentColor"/>
         </g>
     </symbol>
+    <symbol id="success" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <path d="M2 8.5L8.6 15L17 2" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+    </symbol>
+    <symbol id="zzz" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g>
+        </g>
+    </symbol>
     <symbol id="zzz" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g>
         </g>
     </symbol>
 </svg>
+
 
 
 
